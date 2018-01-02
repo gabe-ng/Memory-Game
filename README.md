@@ -28,7 +28,7 @@ This is part of the [Udacity](https://www.udacity.com/course/front-end-web-devel
  - Reset button to restart the game at any time 
  - At the end of the game, pop-up will appear to present your results
  
- <h4>How to Play:</h4>
+ <h4>Where to Play:</h4>
  
  - To play on GitHub.io: [Memory Game](https://gabe-ng.github.io/fend-memorygame/)
  - Clone or Download here: [Repository](https://github.com/gabe-ng/fend-memorygame)
