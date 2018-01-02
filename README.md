@@ -27,3 +27,8 @@ This is part of <a href src="https://www.udacity.com/course/front-end-web-develo
  - Active timer to track your time
  - Reset button to restart the game at any time 
  - At the end of the game, pop-up will appear to present your results
+ 
+ <h4>How to Play:</h4>
+ 
+ - To play on GitHub.io: <a href src="https://gabe-ng.github.io/fend-memorygame/">Memory Game</a>
+ - Clone or Download here: <a href src="https://github.com/gabe-ng/fend-memorygame">Repository</a>
