@@ -1,5 +1,5 @@
 ---
-This is part of <a href src="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001" target="_blank"> Udacity's </a> Front-End Web Development program.
+This is part of the [Udacity](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001) Front-End Web Development Program.
 
 
 ----------
@@ -30,5 +30,5 @@ This is part of <a href src="https://www.udacity.com/course/front-end-web-develo
  
  <h4>How to Play:</h4>
  
- - To play on GitHub.io: <a href src="https://gabe-ng.github.io/fend-memorygame/" target="_blank">Memory Game</a>
- - Clone or Download here: <a href src="https://github.com/gabe-ng/fend-memorygame" target="_blank">Repository</a>
+ - To play on GitHub.io: [Memory Game](https://gabe-ng.github.io/fend-memorygame/)
+ - Clone or Download here: [Repository](https://github.com/gabe-ng/fend-memorygame)
