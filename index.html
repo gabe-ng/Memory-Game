@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Memory Game Project for Udacity">
+  <meta name="author" content="Gabriel Ng">
+  <title>Matching Game</title>
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- Credits to https://github.com/daneden/animate.css -->
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Matching Game</h1>
+    </header>
+
+    <section class="score-panel" id="scorePanel">
+      <ul class="stars" id="stars"></ul> <span class="moves">Moves:</span> <span id="moves"></span>
+      <span class="timer"> Time: </span>
+      <span class="timer" id="timer">00:00:00</span>
+      <div class="restartSign" id="restart">
+        <span class="restart">Restart:</span>
+        <i class="fa fa-repeat"></i>
+      </div>
+    </section>
+
+    <ul class="deck" id="deck">
+    </ul>
+  </div>
+
+  <!-- Results Popup -->
+  <div id="results-popup" class="popup">
+
+    <!-- Resuts Popup Content -->
+    <div class="popup-content">
+      <span class="close">&times;</span>
+      <h1>Hooray!!</h1>
+      <h3>You found all the matches in <span id="end-time"></span>!</h3>
+      <h3>It took you <span id="total-moves"><span></h3>
+      <h3>Your star rating is: <span id="total-stars"></span> out of 3!</h3>
+      <button type="button" class="button" id="play-again-btn">
+      Play again!
+      </button>
+    </div>
+
+  </div>
+
+
+  <!-- bootstrap js and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  <!-- timer js -->
+  <script src="js/easytimer.min.js"></script>
+  <!-- Credits to https://github.com/albert-gonzalez/easytimer.js -->
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
