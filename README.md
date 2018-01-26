@@ -30,5 +30,5 @@ This is part of the [Udacity](https://www.udacity.com/course/front-end-web-devel
  
  <h4>Where to Play:</h4>
  
- - To play on GitHub.io: [Memory Game](https://gabe-ng.github.io/fend-memorygame/)
+ - To play on GitHub.io: [Memory Game](https://gabe-ng.github.io/Memory-Game/)
  - Clone or Download here: [Repository](https://github.com/gabe-ng/fend-memorygame)
